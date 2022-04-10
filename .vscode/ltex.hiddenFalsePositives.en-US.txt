@@ -1,0 +1,2 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q^2: support.mozilla ^3: Rearrange Tabs @ Web Store\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qchrome://extensions/shortcuts allows me to set up shortcuts for extension actions.\\E$"}

@@ -1,0 +1,5 @@
+fishmarks
+Neovim
+direnv
+Xavierchow
+SnipIt
