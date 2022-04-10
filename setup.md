@@ -10,7 +10,7 @@ scratch.
 ### Install some basic binaries
 
 ```fish
-sudo pamac install fasd git htop neovim ranger
+sudo pamac install fasd fzf git htop neovim ranger
 ```
 
 ### Install a [GitHub SSH key](#github-ssh-key)
@@ -58,7 +58,7 @@ brew install --cask font-dejavu-sans-mono-nerd-font
 ### Install some binaries with brew
 
 ```fish
-brew install fasd git htop neovim ranger
+brew install fasd fzf git htop neovim ranger
 ```
 
 ### Install a [GitHub SSH key](#github-ssh-key)
@@ -99,6 +99,7 @@ This section lists out installation sub-steps that are shared by all systems.
    ```fish
    fisher update
    ```
+1. (macOS) To fix `grep -P` not being available, apply [this PR](https://github.com/fishgretel/fasd/pull/23).
 
 ### GitHub SSH key
 
