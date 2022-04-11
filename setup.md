@@ -36,8 +36,8 @@ This is an aspirational section on setting up my macOS workspace from scratch.
 1. Switch (CTRL/FN) and (option/⌘) keys on the built-in keyboard. I like it
    when the CTRL is the left-most button and the alt-equivalent is the one left
    of space.
-   1. Open Finder (Option + ⌘ + Space).
    1. [Guide](https://howchoo.com/mac/mac-remap-fn-to-ctrl#open-keyboard-settings-in-system-preferences).
+1. Install [Rectangle](https://rectangleapp.com/) ([StackOverflow source](https://rectangleapp.com/)) and setup your window management shortcuts.
 
 ### Install Homebrew
 
