@@ -27,6 +27,12 @@ sudo pamac install fasd fzf git htop neovim ranger
 
 This is an aspirational section on setting up my macOS workspace from scratch.
 
+### Install & Configure Firefox
+
+1. Install Firefox: https://www.mozilla.org/de/firefox/download/thanks/.
+2. Login to Firefox.
+3. Login to Firefox extensions.
+
 ### Adjust settings
 
 1. Change mouse scroll direction (scrolling up should go up).
