@@ -17,9 +17,9 @@ sudo pamac install fasd fzf git htop neovim ranger
 
 ### Install [Chezmoi](#chezmoi)
 
-### Install & configure [Kitty](#kitty)
-
 ### Install & configure [Fish](#fish)
+
+### Install & configure [Kitty](#kitty)
 
 ### Configure Neovim
 
@@ -72,9 +72,9 @@ brew install fasd fzf git htop neovim ranger
 
 ### Install [Chezmoi](#chezmoi)
 
-### Install & configure [Kitty](#kitty)
-
 ### Install & configure [Fish](#fish)
+
+### Install & configure [Kitty](#kitty)
 
 ### Configure [Neovim](#neovim)
 
