@@ -40,7 +40,7 @@ This is an aspirational section on setting up my macOS workspace from scratch.
    1. Change scroll direction.
 1. Switch ⌃, fn, ⌥, ⌘ keys on the built-in keyboard.
    1. [Guide](https://howchoo.com/mac/mac-remap-fn-to-ctrl#open-keyboard-settings-in-system-preferences).
-   2. On MacBook Pro M1 I have the following setup: ⌃, ⌘, fn, ⌥. Ctrl is the 
+   2. On MacBook Pro M1 I have the following setup: ⌃, ⌘, fn, ⌥. Ctrl is the
       leftmost button. Alt-equivalent is the rightmost. fn is at the most awkward spot.
 1. Install [Rectangle][rectangle] for convenient window management.
    1. Download and install the app.
@@ -65,7 +65,8 @@ brew install --cask font-dejavu-sans-mono-nerd-font
 ### Install some binaries with brew
 
 ```fish
-brew install fasd fzf git htop neovim ranger
+brew install fasd fzf git htop neovim ranger \
+  rg
 ```
 
 ### Install a [GitHub SSH key](#github-ssh-key)
