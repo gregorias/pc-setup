@@ -113,7 +113,10 @@ This section lists out installation sub-steps that are shared by all systems.
 If the key has been restored and is present in `.ssh`, you don't need this step.
 
 1. [Generate a key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
-2. [Add the key to your GitHub profile](https://github.com/settings/keys).
+   1. ```bash
+      ssh-keygen -t ed25519 -C "grzegorzmilka@gmail.com"
+      ```
+1. [Add the key to your GitHub profile](https://github.com/settings/keys).
 
 ### Chezmoi
 
