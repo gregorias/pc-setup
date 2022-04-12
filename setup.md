@@ -36,8 +36,7 @@ This is an aspirational section on setting up my macOS workspace from scratch.
 ### Adjust settings
 
 1. Change mouse scroll direction (scrolling up should go up).
-   1. Open Finder (Option + ⌘ + Space).
-   1. Find Mouse and open its preferences.
+   1. Open Mouse system preferences.
    1. Change scroll direction.
 1. Switch (CTRL/FN) and (option/⌘) keys on the built-in keyboard. I like it
    when the CTRL is the left-most button and the alt-equivalent is the one left
