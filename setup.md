@@ -38,10 +38,10 @@ This is an aspirational section on setting up my macOS workspace from scratch.
 1. Change mouse scroll direction (scrolling up should go up).
    1. Open Mouse system preferences.
    1. Change scroll direction.
-1. Switch (CTRL/FN) and (option/⌘) keys on the built-in keyboard. I like it
-   when the CTRL is the left-most button and the alt-equivalent is the one left
-   of space.
+1. Switch ⌃, fn, ⌥, ⌘ keys on the built-in keyboard.
    1. [Guide](https://howchoo.com/mac/mac-remap-fn-to-ctrl#open-keyboard-settings-in-system-preferences).
+   2. On MacBook Pro M1 I have the following setup: ⌃, ⌘, fn, ⌥. Ctrl is the 
+      leftmost button. Alt-equivalent is the rightmost. fn is at the most awkward spot.
 1. Install [Rectangle][rectangle] for convenient window management.
    1. Download and install the app.
    2. Provide my pro license key (the pro version can sync my config in iCloud).
