@@ -29,19 +29,17 @@ This is an aspirational section on setting up my macOS workspace from scratch.
 
 ### Install & Configure Firefox
 
-1. Install Firefox: https://www.mozilla.org/de/firefox/download/thanks/.
+1. Install [Firefox](https://www.mozilla.org/de/firefox/download/thanks/).
 2. Login to Firefox.
 3. Login to Firefox extensions.
 
 ### Adjust settings
 
-1. Change mouse scroll direction (scrolling up should go up).
-   1. Open Mouse system preferences.
-   1. Change scroll direction.
 1. Switch ⌃, fn, ⌥, ⌘ keys on the built-in keyboard.
    1. [Guide](https://howchoo.com/mac/mac-remap-fn-to-ctrl#open-keyboard-settings-in-system-preferences).
    2. On MacBook Pro M1 I have the following setup: ⌃, ⌘, fn, ⌥. Ctrl is the
-      leftmost button. Alt-equivalent is the rightmost. fn is at the most awkward spot.
+      leftmost button. Alt-equivalent is the rightmost. fn is at the most
+      awkward spot.
 1. Install [Rectangle][rectangle] for convenient window management.
    1. Download and install the app.
    2. Provide my pro license key (the pro version can sync my config in iCloud).
@@ -52,6 +50,19 @@ Follow [brew.sh](https://brew.sh/) for instructions.
 
 Homebrew is essential for installing most packages. macOS doesn't support an
 apt equivalent.
+
+### Configure mouse scroll direction
+
+Change mouse scroll direction on the mouse. Scrolling up should go up.
+
+1. Install [Unnatural](https://github.com/ther0n/UnnaturalScrollWheels).
+
+   ```shell
+   brew install --cask unnaturalscrollwheels
+   ```
+
+2. [Set the app to run at
+   login](https://github.com/ther0n/UnnaturalScrollWheels/blob/master/RunAtLogin.md).
 
 ### Install my nerd font
 
