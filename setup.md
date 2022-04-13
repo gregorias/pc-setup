@@ -87,6 +87,8 @@ brew install fasd fzf git htop neovim \
    chezmoi apply .config/nvim
    ```
 
+2. Run neovim once for Packer to bootstrap itself.
+
 ### Install [direnv](http://formulae.brew.sh/formula/direnv#default)
 
 ## Miscellaneous setup instructions
