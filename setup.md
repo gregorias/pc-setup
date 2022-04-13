@@ -43,6 +43,12 @@ This is an aspirational section on setting up my macOS workspace from scratch.
 1. Install [Rectangle][rectangle] for convenient window management.
    1. Download and install the app.
    2. Provide my pro license key (the pro version can sync my config in iCloud).
+1. [Show macOS app switcher across all monitors](https://gist.github.com/jthodge/c4ba15a78fb29671dfa072fe279355f0).
+
+   ```shell
+   defaults write com.apple.Dock appswitcher-all-displays -bool true
+   killall Dock
+   ```
 
 ### Install Homebrew
 
