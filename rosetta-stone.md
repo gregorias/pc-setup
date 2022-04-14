@@ -14,7 +14,7 @@ View all desktops        | super       | ^+↑
 Move window to a desktop | N/A         | ^+⇧+⌘+←/→
 Maximize a window        | super+u     | ⌘+u
 Snap window left/right   | N/A         | ⌘+h/l
-Change keyboard language | super+space | 🌐
+Change keyboard language | super+space | ^+space
 
 ## Browser Rosetta Stone
 
