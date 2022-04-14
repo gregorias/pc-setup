@@ -188,5 +188,13 @@ This step requires [a GitHub SSH Key](#github-ssh-key).
    ```shell
    chezmoi apply .config/kitty
    ```
+   
+### Anki
+
+Install the following Anki add-ons:
+
+1. 112228974 # Highlight Code
+2. 1140138750 # Hyphenate Words
+3. 1312865748 # Scale Images
 
 [rectangle]: https://rectangleapp.com/
