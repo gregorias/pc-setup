@@ -17,6 +17,7 @@ Maximize a window        | super+u       | ⌘+u
 View all desktops        | super         | ^+↑
 Move to a desktop        | ^+super+h/l   | ^+⌘+h/l
 Move window to a desktop | ^+⇧+super+h/l | ^+⇧+⌘+h/l
+Move window to a monitor | N/A           | ^+⇧+⌘+←/→
 
 ## Browser
 
