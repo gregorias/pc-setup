@@ -5,18 +5,20 @@ various environments.
 
 [TOC]
 
-## Keyboard Shortcut Rosetta Stone
+## Window Management
 
-Action                   | Linux       | macOS
------------------------- | -------     | ---------
-Finder                   | N/A         | ^+⌘+space
-View all desktops        | super       | ^+↑
-Move window to a desktop | N/A         | ^+⇧+⌘+←/→
-Maximize a window        | super+u     | ⌘+u
-Snap window left/right   | N/A         | ⌘+h/l
-Change keyboard language | super+space | ^+space
+On macOS uses [Rectangle Pro][rp] and [BetterTouchTool][btt].
 
-## Browser Rosetta Stone
+Action                   | Linux         | macOS
+------------------------ | -----------   | ---------
+Finder                   | N/A           | ^+⌘+space
+Snap window left/right   | N/A           | ⌘+\[/\]
+Maximize a window        | super+u       | ⌘+u
+View all desktops        | super         | ^+↑
+Move to a desktop        | ^+super+h/l   | ^+⌘+h/l
+Move window to a desktop | ^+⇧+super+h/l | ^+⇧+⌘+h/l
+
+## Browser
 
 Action                   | Chrome                     | Firefox
 ------------------------ | -------                    | ---------
@@ -33,10 +35,13 @@ up shortcuts for extension actions.
 
 Action                       | Linux       | macOS
 ---------------------------- | ----------- | ---------
+Change keyboard language     | super+space | ^+space
 Show hidden files in pickers | ^+h         | ⇧+⌘+.
 
 [^1]: I use `l` (my custom shortcut) as [Xavierchow explains](https://xavierchow.github.io/2016/03/07/vimium-leave-address-bar/).
 [^2]: [support.mozilla](https://support.mozilla.org/bm/questions/1210451)
 [^3]: [Rearrange Tabs @ Web Store](https://chrome.google.com/webstore/detail/ccnnhhnmpoffieppjjkhdakcoejcpbga)
 
+[rp]: https://rectangleapp.com/pro
+[btt]: https://folivora.ai/
 [qt]: https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb
