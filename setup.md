@@ -98,13 +98,19 @@ brew install fasd fzf git htop neovim \
 
 ### Configure [Neovim](#neovim)
 
+1. Install neovim python package.
+
+   ```shell
+   pip3 install neovim
+   ```
+
 1. Use Chezmoi to fetch Neovim configuration.
 
    ```shell
    chezmoi apply .config/nvim
    ```
 
-2. Run neovim once for Packer to bootstrap itself.
+1. Run neovim once for Packer to bootstrap itself.
 
 ### Install [direnv](http://formulae.brew.sh/formula/direnv#default)
 
