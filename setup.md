@@ -40,6 +40,10 @@ This is an aspirational section on setting up my macOS workspace from scratch.
    2. On MacBook Pro M1 I have the following setup: ⌃, ⌘, fn, ⌥. Ctrl is the
       leftmost button. Alt-equivalent is the rightmost. fn is at the most
       awkward spot.
+1. Adjust Keyboard settings.
+   1. Open Keyboard settings.
+   2. Change 🌐 to do show emojis and symbols.
+   3. Select use F keys as standard keys.
 1. Install [Rectangle][rectangle] for convenient window management.
    1. Download and install the app.
    2. Provide my pro license key (the pro version can sync my config in iCloud).
