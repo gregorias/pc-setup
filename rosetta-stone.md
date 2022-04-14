@@ -10,7 +10,10 @@ various environments.
 Action                   | Linux       | macOS
 ------------------------ | -------     | ---------
 Finder                   | N/A         | ^+⌘+space
-View all desktops        | super       | ^+up
+View all desktops        | super       | ^+↑
+Move window to a desktop | N/A         | ^+⇧+⌘+←/→
+Maximize a window        | super+u     | ⌘+u
+Snap window left/right   | N/A         | ⌘+h/l
 Change keyboard language | super+space | 🌐
 
 ## Browser Rosetta Stone
