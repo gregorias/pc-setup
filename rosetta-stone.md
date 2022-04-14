@@ -31,3 +31,9 @@ up shortcuts for extension actions.
 [^1]: I use `l` (my custom shortcut) as [Xavierchow explains](https://xavierchow.github.io/2016/03/07/vimium-leave-address-bar/).
 [^2]: [support.mozilla](https://support.mozilla.org/bm/questions/1210451)
 [^3]: [Rearrange Tabs @ Web Store](https://chrome.google.com/webstore/detail/ccnnhhnmpoffieppjjkhdakcoejcpbga)
+
+## Miscellaneous
+
+Action                       | Linux       | macOS
+---------------------------- | ----------- | ---------
+Show hidden files in pickers | ^+h         | ⇧+⌘+.
