@@ -96,6 +96,16 @@ brew install fasd fzf git htop neovim \
 
 ### (macOS) Install & configure [Kitty](#kitty)
 
+### Install Python Dev Tools
+
+```shell
+pip3 install \
+  pipenv
+  pipx
+  pls
+  virtualenv
+```
+
 ### Configure [Neovim](#neovim)
 
 1. Install neovim python package.
