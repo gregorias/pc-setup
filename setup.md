@@ -44,9 +44,6 @@ This is an aspirational section on setting up my macOS workspace from scratch.
    1. Open Keyboard settings.
    2. Change 🌐 to do show emojis and symbols.
    3. Select use F keys as standard keys.
-1. Install [Rectangle][rectangle] for convenient window management.
-   1. Download and install the app.
-   2. Provide my pro license key (the pro version can sync my config in iCloud).
 1. [Show macOS app switcher across all monitors](https://gist.github.com/jthodge/c4ba15a78fb29671dfa072fe279355f0).
 
    ```shell
@@ -128,6 +125,19 @@ pip3 install \
 
 ### Install [direnv](http://formulae.brew.sh/formula/direnv#default)
 
+### Install & Configure Rectangle Pro
+
+1. Install [Rectangle][rectangle] for convenient window management.
+   1. Download and install the app.
+   2. Provide my pro license key (the pro version can sync my config in iCloud).
+1. Fetch the most recent config.
+
+   ```shell
+   chezmoi apply $HOME/.config/RectangleProConfig.json
+   ```
+
+1. Import `$HOME/.config/RectangleProConfig.json` into RectanglePro
+
 ## Miscellaneous setup instructions
 
 This section lists out installation sub-steps that are shared by all systems.
@@ -192,7 +202,7 @@ This step requires [a GitHub SSH Key](#github-ssh-key).
    ```shell
    chezmoi apply .config/kitty
    ```
-   
+
 ### Anki
 
 Install the following Anki add-ons:
