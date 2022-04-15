@@ -89,6 +89,14 @@ brew install fasd fzf git htop neovim \
   rg
 ```
 
+#### Install [Universal Ctags](https://github.com/universal-ctags/ctags#the-latest-build-and-package)
+
+This package is useful for my Neovim Tagbar plugin.
+
+```shell
+brew install --HEAD universal-ctags/universal-ctags/universal-ctags
+```
+
 ### (macOS) Install a [GitHub SSH key](#github-ssh-key)
 
 ### (macOS) Install [Chezmoi](#chezmoi)
