@@ -27,6 +27,9 @@ Focus on website         | l[^1]                      | F6[^2]
 [Quick Tabs][qt]         | alt+t                      | alt+t
 Rearrange Tabs           | `Alt + Shift + ←/→`[^3]    | `Alt + Shift + PgUp/Down`
 
+* [(Firefox) address bar autocomplete
+  suggestions](https://support.mozilla.org/en-US/kb/address-bar-autocomplete-firefox#w_removing-autocomplete-results)
+
 ### Chrome Extension Shortcuts
 
 [chrome://extensions/shortcuts](chrome://extensions/shortcuts) allows me to set
