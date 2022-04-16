@@ -147,6 +147,13 @@ pip3 install \
 
 1. Import `$HOME/.config/RectangleProConfig.json` into RectanglePro
 
+### Install Alt-Tab
+
+Alt-tab is a better app, because it can hide the Finder app. Also showing
+window preview is nice.
+
+1. Install [alt-tab](https://alt-tab-macos.netlify.app/).
+
 ## Miscellaneous setup instructions
 
 This section lists out installation sub-steps that are shared by all systems.
