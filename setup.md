@@ -228,3 +228,8 @@ Install the following Anki add-ons:
 3. 1312865748 # Scale Images
 
 [rectangle]: https://rectangleapp.com/
+
+### Utilities
+
+* For `pdftotext`, `brew install poppler`
+  ([Source](https://superuser.com/questions/56272/is-the-pdftotext-command-line-tool-for-mac/613342#613342)).
