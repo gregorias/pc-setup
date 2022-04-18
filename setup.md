@@ -229,6 +229,19 @@ Install the following Anki add-ons:
 
 [rectangle]: https://rectangleapp.com/
 
+### (macOS) Cron
+
+#### Authorization
+
+macOS has additional authorization system. You need to give cron full disk
+access to use it.
+
+1. Open System Preferences from the  Apple menu, then choose “Security & Privacy”.
+2. Go to the “Privacy” tab, then select “Full Disk Access” from the side menu options
+3. Add `/usr/sbin/cron` to the list of allowed apps.
+
+[Source](https://osxdaily.com/2020/04/27/fix-cron-permissions-macos-full-disk-access/).
+
 ### Utilities
 
 * For `pdftotext`, `brew install poppler`
