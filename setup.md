@@ -219,6 +219,13 @@ This step requires [a GitHub SSH Key](#github-ssh-key).
    chezmoi apply .config/kitty
    ```
 
+### Sendmail
+
+It's useful to be able to use `sendmail` to send mail from the command line.
+
+On macOS, [configure
+Postfix](https://gist.github.com/kany/c44c077881047ead8faa).
+
 ### Anki
 
 Install the following Anki add-ons:
