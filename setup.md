@@ -247,3 +247,4 @@ access to use it.
 * For `pdftotext`, `brew install poppler`
   ([Source](https://superuser.com/questions/56272/is-the-pdftotext-command-line-tool-for-mac/613342#613342)).
 * For `flock`, see [github/flock](https://github.com/discoteq/flock).
+* For `XCode`, see [freecodecamp.org](https://www.freecodecamp.org/news/how-to-download-and-install-xcode/).
