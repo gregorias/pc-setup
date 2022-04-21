@@ -40,6 +40,7 @@ up shortcuts for extension actions.
 Action                       | Linux       | macOS
 ---------------------------- | ----------- | ---------
 Change keyboard language     | super+space | ^+space
+Take a screenshot            |             | [Apple Support](https://support.apple.com/de-ch/HT201361)
 Show hidden files in pickers | ^+h         | ⇧+⌘+.
 
 [^1]: I use `l` (my custom shortcut) as [Xavierchow explains](https://xavierchow.github.io/2016/03/07/vimium-leave-address-bar/).
