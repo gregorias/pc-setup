@@ -212,9 +212,15 @@ This step requires [a GitHub SSH Key](#github-ssh-key).
    chezmoi apply .config/kitty
    ```
 
+### Ranger
+
+My Ranger uses devicons, so install
+[alexanderjeurissen/ranger_devicons](https://github.com/alexanderjeurissen/ranger_devicons).
+
 ### Sendmail
 
-It's useful to be able to use `sendmail` to send mail from the command line.
+It's useful to be able to use `sendmail` or `mail` to send mail from the
+command line.
 
 On macOS, [configure
 Postfix](https://gist.github.com/kany/c44c077881047ead8faa).
