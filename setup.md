@@ -248,6 +248,14 @@ access to use it.
 
 [Source](https://osxdaily.com/2020/04/27/fix-cron-permissions-macos-full-disk-access/).
 
+### macOS Sound
+
+I like to have the sound menu in the menu bar. It enables me to quickly change
+the sink if needed.
+
+1. Open System Preferences > Sound
+2. Select "Show Sound in menu bar (always)."
+
 ### Utilities
 
 * For `pdftotext`, `brew install poppler`
