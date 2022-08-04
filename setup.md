@@ -39,7 +39,7 @@ This is an aspirational section on setting up my macOS workspace from scratch.
    1. [Guide](https://howchoo.com/mac/mac-remap-fn-to-ctrl#open-keyboard-settings-in-system-preferences).
    2. On MacBook Pro M1 I have the following setup: ⌃, ⌘, fn, ⌥. Ctrl is the
       leftmost button. Alt-equivalent is the rightmost. fn is at the most
-      awkward spot.
+      awkward spot. Capslock is set to escape.
 1. Adjust Keyboard settings.
    1. Open Keyboard settings.
    2. Change 🌐 to do show emojis and symbols.
