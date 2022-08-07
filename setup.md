@@ -89,6 +89,7 @@ brew install \
   fd \
   fzf \
   git \
+  git-delta \
   htop \
   neovim \
   node \
