@@ -83,7 +83,14 @@ brew install --cask font-dejavu-sans-mono-nerd-font
 ### Install some binaries with brew
 
 ```fish
-brew install fasd fzf git htop neovim \
+brew install \
+  bat \
+  fasd \
+  fd \
+  fzf \
+  git \
+  htop \
+  neovim \
   node \
   pyenv \
   ranger \
