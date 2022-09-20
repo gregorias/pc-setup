@@ -155,6 +155,14 @@ pip3 install \
 
 1. Import `$HOME/.config/RectangleProConfig.json` into RectanglePro
 
+### Install XCode
+
+
+Follow instructions from
+[freecodecamp.org](https://www.freecodecamp.org/news/how-to-download-and-install-xcode/).
+Install from [App
+Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
+
 ## Miscellaneous setup instructions
 
 This section lists out installation sub-steps that are shared by all systems.
@@ -269,4 +277,3 @@ the sink if needed.
 * For `pdftotext`, `brew install poppler`
   ([Source](https://superuser.com/questions/56272/is-the-pdftotext-command-line-tool-for-mac/613342#613342)).
 * For `flock`, see [github/flock](https://github.com/discoteq/flock).
-* For `XCode`, see [freecodecamp.org](https://www.freecodecamp.org/news/how-to-download-and-install-xcode/).
