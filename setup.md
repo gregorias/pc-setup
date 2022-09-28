@@ -155,6 +155,8 @@ pip3 install \
 
 1. Import `$HOME/.config/RectangleProConfig.json` into RectanglePro
 
+### Install & Configure [Key Combiner][keycombiner]
+
 ### Install XCode
 
 
@@ -277,3 +279,5 @@ the sink if needed.
 * For `pdftotext`, `brew install poppler`
   ([Source](https://superuser.com/questions/56272/is-the-pdftotext-command-line-tool-for-mac/613342#613342)).
 * For `flock`, see [github/flock](https://github.com/discoteq/flock).
+
+[keycombiner]: https://keycombiner.com/
