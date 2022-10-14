@@ -157,6 +157,9 @@ pip3 install \
 
 ### Install & Configure [Key Combiner][keycombiner]
 
+1. Install Key Combiner for desktop.
+2. Set up ^+⌘+c as the shortcut.
+
 ### Install XCode
 
 
