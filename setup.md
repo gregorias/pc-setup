@@ -147,13 +147,12 @@ pip3 install \
    1. Download and install the app.
    2. Provide my pro license key (the pro version can sync my config in iCloud).
 
-### Install & Configure [Key Combiner][keycombiner]
+### 15. Install & Configure [Key Combiner][keycombiner]
 
-1. Install Key Combiner for desktop.
+1. [Install Key Combiner for desktop](https://keycombiner.com/desktop/).
 2. Set up ^+⌘+c as the shortcut.
 
 ### Install XCode
-
 
 Follow instructions from
 [freecodecamp.org](https://www.freecodecamp.org/news/how-to-download-and-install-xcode/).
