@@ -69,8 +69,7 @@ Change mouse scroll direction on the mouse. Scrolling up should go up.
    brew install --cask unnaturalscrollwheels
    ```
 
-1. [Set the app to run at
-   login](https://github.com/ther0n/UnnaturalScrollWheels/blob/master/RunAtLogin.md).
+1. Set the app to run at login. Open the app and enable the option.
 
 ### 5. Install my nerd font
 
