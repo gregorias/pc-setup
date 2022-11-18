@@ -85,6 +85,7 @@ brew install --cask font-dejavu-sans-mono-nerd-font
 ```fish
 brew install \
   bat \
+  exa \
   fasd \
   fd \
   fzf \
@@ -120,7 +121,6 @@ brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 pip3 install \
   pipenv
   pipx
-  pls
   virtualenv
 ```
 
