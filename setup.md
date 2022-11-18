@@ -141,18 +141,11 @@ pip3 install \
 
 1. Run Neovim once for Packer to bootstrap itself.
 
-### Install & Configure Rectangle Pro
+### 14. Install & Configure Rectangle Pro
 
-1. Install [Rectangle][rectangle] for convenient window management.
+1. Install [Rectangle Pro][rectangle] for convenient window management.
    1. Download and install the app.
    2. Provide my pro license key (the pro version can sync my config in iCloud).
-1. Fetch the most recent config.
-
-   ```shell
-   chezmoi apply $HOME/.config/RectangleProConfig.json
-   ```
-
-1. Import `$HOME/.config/RectangleProConfig.json` into RectanglePro
 
 ### Install & Configure [Key Combiner][keycombiner]
 
@@ -253,8 +246,6 @@ Install the following Anki add-ons:
 2. 1140138750 # Hyphenate Words
 3. 1312865748 # Scale Images
 
-[rectangle]: https://rectangleapp.com/
-
 ### (macOS) Cron
 
 #### Authorization
@@ -283,3 +274,4 @@ the sink if needed.
 * For `flock`, see [github/flock](https://github.com/discoteq/flock).
 
 [keycombiner]: https://keycombiner.com/
+[rectangle]: https://rectangleapp.com/pro
