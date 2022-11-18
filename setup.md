@@ -85,6 +85,7 @@ brew install --cask font-dejavu-sans-mono-nerd-font
 ```fish
 brew install \
   bat \
+  direnv \
   exa \
   fasd \
   fd \
@@ -139,8 +140,6 @@ pip3 install \
    ```
 
 1. Run neovim once for Packer to bootstrap itself.
-
-### Install [direnv](http://formulae.brew.sh/formula/direnv#default)
 
 ### Install & Configure Rectangle Pro
 
