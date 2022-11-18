@@ -127,7 +127,7 @@ pip3 install \
 
 ### 13. Configure [Neovim](#neovim)
 
-1. Install neovim python package.
+1. Install the Neovim Python package.
 
    ```shell
    pip3 install neovim
@@ -139,7 +139,7 @@ pip3 install \
    chezmoi apply .config/nvim
    ```
 
-1. Run neovim once for Packer to bootstrap itself.
+1. Run Neovim once for Packer to bootstrap itself.
 
 ### Install & Configure Rectangle Pro
 
