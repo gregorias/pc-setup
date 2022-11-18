@@ -27,23 +27,24 @@ sudo pamac install fasd fzf git htop neovim ranger
 
 This is an aspirational section on setting up my macOS workspace from scratch.
 
-### Install & Configure Firefox
+### 1. Install & Configure Firefox
 
 1. Install [Firefox](https://www.mozilla.org/de/firefox/download/thanks/).
 2. Login to Firefox.
 3. Login to Firefox extensions.
 
-### Adjust settings
+### 2. Adjust system settings
 
 1. Switch ⌃, fn, ⌥, ⌘ keys on the built-in keyboard.
-   1. [Guide](https://howchoo.com/mac/mac-remap-fn-to-ctrl#open-keyboard-settings-in-system-preferences).
-   2. On MacBook Pro M1 I have the following setup: ⌃, ⌘, fn, ⌥. Ctrl is the
-      leftmost button. Alt-equivalent is the rightmost. fn is at the most
-      awkward spot. Capslock is set to escape.
-1. Adjust Keyboard settings.
-   1. Open Keyboard settings.
-   2. Change 🌐 to do show emojis and symbols.
-   3. Select use F keys as standard keys.
+   1.
+   [Guide](https://howchoo.com/mac/mac-remap-fn-to-ctrl#open-keyboard-settings-in-system-preferences).
+   On MacBook Pro M1 I have the following setup: ⌃, ⌘, fn, ⌥. I like Ctrl to be
+   the leftmost button and the Alt-equivalent key to be the rightmost button.
+   fn is at the most awkward spot, as is tradition. Set Capslock to function as
+   an escape key.
+1. Adjust other keyboard settings.
+   1. Change 🌐 to show emojis and symbols. It's a useful keyboard extension.
+   2. Select "use F keys as standard keys".
 1. [Show macOS app switcher across all monitors](https://gist.github.com/jthodge/c4ba15a78fb29671dfa072fe279355f0).
 
    ```shell
@@ -51,14 +52,14 @@ This is an aspirational section on setting up my macOS workspace from scratch.
    killall Dock
    ```
 
-### Install Homebrew
+### 3. Install Homebrew
 
 Follow [brew.sh](https://brew.sh/) for instructions.
 
 Homebrew is essential for installing most packages. macOS doesn't support an
 apt equivalent.
 
-### Configure mouse scroll direction
+### 4. Configure mouse scroll direction
 
 Change mouse scroll direction on the mouse. Scrolling up should go up.
 
@@ -68,10 +69,10 @@ Change mouse scroll direction on the mouse. Scrolling up should go up.
    brew install --cask unnaturalscrollwheels
    ```
 
-2. [Set the app to run at
+1. [Set the app to run at
    login](https://github.com/ther0n/UnnaturalScrollWheels/blob/master/RunAtLogin.md).
 
-### Install my nerd font
+### 5. Install my nerd font
 
 [Source](https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts)
 
@@ -80,7 +81,7 @@ brew tap homebrew/cask-fonts
 brew install --cask font-dejavu-sans-mono-nerd-font
 ```
 
-### Install some binaries with brew
+### 6. Install some binaries with brew
 
 ```fish
 brew install \
@@ -98,7 +99,7 @@ brew install \
   rg
 ```
 
-#### Install [Universal Ctags](https://github.com/universal-ctags/ctags#the-latest-build-and-package)
+#### 7. Install [Universal Ctags](https://github.com/universal-ctags/ctags#the-latest-build-and-package)
 
 This package is useful for my Neovim Tagbar plugin.
 
