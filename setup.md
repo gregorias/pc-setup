@@ -106,15 +106,15 @@ This package is useful for my Neovim Tagbar plugin.
 brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 ```
 
-### (macOS) Install a [GitHub SSH key](#github-ssh-key)
+### 8. (macOS) Install a [GitHub SSH key](#github-ssh-key)
 
-### (macOS) Install [Chezmoi](#chezmoi)
+### 9. (macOS) Install [Chezmoi](#chezmoi)
 
-### (macOS) Install & configure [Fish](#fish)
+### 10. (macOS) Install & configure [Fish](#fish)
 
-### (macOS) Install & configure [Kitty](#kitty)
+### 11. (macOS) Install & configure [Kitty](#kitty)
 
-### Install Python Dev Tools
+### 12. Install Python Dev Tools
 
 ```shell
 pip3 install \
@@ -124,7 +124,7 @@ pip3 install \
   virtualenv
 ```
 
-### Configure [Neovim](#neovim)
+### 13. Configure [Neovim](#neovim)
 
 1. Install neovim python package.
 
