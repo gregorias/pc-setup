@@ -162,6 +162,8 @@ Follow instructions from
 Install from [App
 Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 
+### 18. [Install and setup Google Drive for Desktop](https://www.google.com/drive/download/)
+
 ## Miscellaneous setup instructions
 
 This section lists out installation sub-steps that are shared by all systems.
