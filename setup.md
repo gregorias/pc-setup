@@ -85,6 +85,7 @@ brew install --cask font-dejavu-sans-mono-nerd-font
 ```fish
 brew install \
   bat \
+  coreutils \
   direnv \
   exa \
   fasd \
@@ -92,6 +93,7 @@ brew install \
   fzf \
   git \
   git-delta \
+  go \
   htop \
   neovim \
   node \
