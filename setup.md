@@ -51,6 +51,9 @@ This is an aspirational section on setting up my macOS workspace from scratch.
    defaults write com.apple.Dock appswitcher-all-displays -bool true
    killall Dock
    ```
+   
+1. [Remove the Spotlight icon from the menu bar.](https://discussions.apple.com/thread/250065431)
+   Its shortcut is well-known to me (⌘ + SPACE). I don't need this crutch.
 
 ### 3. Install Homebrew
 
