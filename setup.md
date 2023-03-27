@@ -51,7 +51,7 @@ This is an aspirational section on setting up my macOS workspace from scratch.
    defaults write com.apple.Dock appswitcher-all-displays -bool true
    killall Dock
    ```
-   
+
 1. [Remove the Spotlight icon from the menu bar.](https://discussions.apple.com/thread/250065431)
    Its shortcut is well-known to me (⌘ + SPACE). I don't need this crutch.
 
@@ -149,25 +149,27 @@ pip3 install \
 
 ### 14. Install & configure [Fish](#fish).
 
-### 15. Install & configure Rectangle Pro
+### 15. Install & configure Amethyst
 
-1. Install [Rectangle Pro][rectangle] for convenient window management.
-   1. Download and install the app.
-   2. Provide my pro license key (the pro version can sync my config in iCloud).
+1. Install [Amethyst][amethyst] for convenient window management.
 
-### 16. Install & configure [Key Combiner][keycombiner]
+### 16. Install & configure Better Touch Tool
+
+1. Install [Better Touch Tool][btt] for window management.
+
+### 17. Install & configure [Key Combiner][keycombiner]
 
 1. [Install Key Combiner for desktop](https://keycombiner.com/desktop/).
 2. Set up ^+⌘+c as the shortcut.
 
-### 17. Install XCode
+### 18. Install XCode
 
 Follow instructions from
 [freecodecamp.org](https://www.freecodecamp.org/news/how-to-download-and-install-xcode/).
 Install from [App
 Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 
-### 18. [Install and setup Google Drive for Desktop](https://www.google.com/drive/download/)
+### 19. [Install and setup Google Drive for Desktop](https://www.google.com/drive/download/)
 
 ## Miscellaneous setup instructions
 
@@ -282,5 +284,6 @@ the sink if needed.
   ([Source](https://superuser.com/questions/56272/is-the-pdftotext-command-line-tool-for-mac/613342#613342)).
 * For `flock`, see [github/flock](https://github.com/discoteq/flock).
 
+[amethyst]: https://ianyh.com/amethyst/
+[btt]: https://folivora.ai/
 [keycombiner]: https://keycombiner.com/
-[rectangle]: https://rectangleapp.com/pro
