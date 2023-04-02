@@ -103,7 +103,10 @@ brew install \
   pyenv \
   ranger \
   rg \
-  starship
+  starship \
+  \
+  catimg \
+  timg
 ```
 
 #### 7. Install [Universal Ctags](https://github.com/universal-ctags/ctags#the-latest-build-and-package)
