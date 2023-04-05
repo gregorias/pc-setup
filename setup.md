@@ -88,6 +88,7 @@ brew install --cask font-dejavu-sans-mono-nerd-font
 ```fish
 brew install \
   bat \
+  blueutil \
   coreutils \
   direnv \
   exa \
