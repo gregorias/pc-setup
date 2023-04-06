@@ -107,7 +107,10 @@ brew install \
   starship \
   \
   catimg \
-  timg
+  timg \
+  \
+  watch \
+  fswatch
 ```
 
 #### 7. Install [Universal Ctags](https://github.com/universal-ctags/ctags#the-latest-build-and-package)
