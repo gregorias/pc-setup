@@ -105,6 +105,7 @@ brew install \
   ranger \
   rg \
   starship \
+  terminal-notifier \
   \
   catimg \
   timg \
@@ -177,6 +178,23 @@ Install from [App
 Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 
 ### 19. [Install and setup Google Drive for Desktop](https://www.google.com/drive/download/)
+
+### 20. Set up [Homebrew  auto-updates](https://github.com/Homebrew/homebrew-autoupdate)
+
+1. Install the auto-updating software:
+
+    ```shell
+    brew tap homebrew/autoupdate
+    ```
+
+2. Start the job:
+
+    ```shell
+    brew autoupdate start 604800 --upgrade
+    ```
+
+3. Enable terminal-notifier and brew-autoupdate notifications in system
+   settings.
 
 ## Miscellaneous setup instructions
 
