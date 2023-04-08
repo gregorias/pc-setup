@@ -3,17 +3,19 @@
 This document provides a Rosetta Stone for doing common operations across
 various environments.
 
+As of 2023 April, it has fallen out of use, because I use
+[KeyCombiner](https://keycombiner.com/).
+
 [TOC]
 
 ## Window Management
 
-On macOS uses [Rectangle Pro][rp] and [BetterTouchTool][btt].
+On macOS, use [Amethyst][amethyst] and [BetterTouchTool][btt].
 
 Action                   | Linux         | macOS
 ------------------------ | -----------   | ---------
 Finder                   | N/A           | ^+⌘+space
-Snap window left/right   | N/A           | ⌘+\[/\]
-Maximize a window        | super+u       | ⌘+u
+Maximize a window        | super+u       | ^+⌘+d
 View all desktops        | super         | ^+↑
 Move to a desktop        | ^+super+h/l   | ^+⌘+h/l
 Move window to a desktop | ^+⇧+super+h/l | ^+⇧+⌘+h/l
@@ -47,6 +49,6 @@ Show hidden files in pickers | ^+h         | ⇧+⌘+.
 [^2]: [support.mozilla](https://support.mozilla.org/bm/questions/1210451)
 [^3]: [Rearrange Tabs @ Web Store](https://chrome.google.com/webstore/detail/ccnnhhnmpoffieppjjkhdakcoejcpbga)
 
-[rp]: https://rectangleapp.com/pro
+[amethyst]: https://ianyh.com/amethyst/
 [btt]: https://folivora.ai/
 [qt]: https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb
