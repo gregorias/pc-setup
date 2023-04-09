@@ -196,6 +196,8 @@ Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 3. Enable terminal-notifier and brew-autoupdate notifications in system
    settings.
 
+### 21. Install [Switch Theme](https://github.com/gregorias/switch-theme.command)
+
 ## Miscellaneous setup instructions
 
 This section lists out installation sub-steps that are shared by all systems.
