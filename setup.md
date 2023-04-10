@@ -45,13 +45,15 @@ This is an aspirational section on setting up my macOS workspace from scratch.
 1. Adjust other keyboard settings.
    1. Change 🌐 to show emojis and symbols. It's a useful keyboard extension.
    2. Select "use F keys as standard keys".
-1. [Show macOS app switcher across all monitors](https://gist.github.com/jthodge/c4ba15a78fb29671dfa072fe279355f0).
+1. [Show macOS app switcher across all monitors.](https://gist.github.com/jthodge/c4ba15a78fb29671dfa072fe279355f0)
 
    ```shell
    defaults write com.apple.Dock appswitcher-all-displays -bool true
    killall Dock
    ```
 
+1. [Hide the menu bar by default.](https://appleworld.today/archives/69599)
+   [You may use ^+F2 to reveal it.](https://superuser.com/a/1703883/1024852)
 1. [Remove the Spotlight icon from the menu bar.](https://discussions.apple.com/thread/250065431)
    Its shortcut is well-known to me (⌘ + SPACE). I don't need this crutch.
 
