@@ -89,24 +89,16 @@ brew install --cask font-dejavu-sans-mono-nerd-font
 
 ```fish
 brew install \
-  bat \
-  blueutil \
-  coreutils \
   direnv \
   exa \
   fasd \
-  fd \
   fzf \
-  git \
   git-delta \
   go \
   htop \
-  neovim \
   node \
   pyenv \
   ranger \
-  rg \
-  starship \
   terminal-notifier \
   \
   catimg \
@@ -157,7 +149,7 @@ pip3 install \
 
 1. Run Neovim once for Packer to bootstrap itself.
 
-### 14. Install & configure [Fish](#fish).
+### 14. Install & configure [Fish](#fish)
 
 ### 15. Install & configure Amethyst
 
