@@ -125,9 +125,7 @@ brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 
 ### 10. (macOS) Install & configure [Fish](#fish)
 
-### 11. (macOS) Install & configure [Kitty](#kitty)
-
-### 12. Install Python Dev Tools
+### 11. Install Python Dev Tools
 
 ```shell
 pip3 install \
@@ -136,7 +134,7 @@ pip3 install \
   virtualenv
 ```
 
-### 13. Configure [Neovim](#neovim)
+### 12. Configure [Neovim](#neovim)
 
 1. Install the Neovim Python package.
 
@@ -152,31 +150,31 @@ pip3 install \
 
 1. Run Neovim once for Packer to bootstrap itself.
 
-### 14. Install & configure [Fish](#fish)
+### 13. Install & configure [Fish](#fish)
 
-### 15. Install & configure Amethyst
+### 14. Install & configure Amethyst
 
 1. Install [Amethyst][amethyst] for convenient window management.
 
-### 16. Install & configure Better Touch Tool
+### 15. Install & configure Better Touch Tool
 
 1. Install [Better Touch Tool][btt] for window management.
 
-### 17. Install & configure [Key Combiner][keycombiner]
+### 16. Install & configure [Key Combiner][keycombiner]
 
 1. [Install Key Combiner for desktop](https://keycombiner.com/desktop/).
 2. Set up ^+⌘+c as the shortcut.
 
-### 18. Install XCode
+### 17. Install XCode
 
 Follow instructions from
 [freecodecamp.org](https://www.freecodecamp.org/news/how-to-download-and-install-xcode/).
 Install from [App
 Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 
-### 19. [Install and setup Google Drive for Desktop](https://www.google.com/drive/download/)
+### 18. [Install and setup Google Drive for Desktop](https://www.google.com/drive/download/)
 
-### 20. Set up [Homebrew  auto-updates](https://github.com/Homebrew/homebrew-autoupdate)
+### 19. Set up [Homebrew  auto-updates](https://github.com/Homebrew/homebrew-autoupdate)
 
 1. Install the auto-updating software:
 
@@ -193,7 +191,7 @@ Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 3. Enable terminal-notifier and brew-autoupdate notifications in system
    settings.
 
-### 21. Install [Switch Theme](https://github.com/gregorias/switch-theme.command)
+### 20. Install [Switch Theme](https://github.com/gregorias/switch-theme.command)
 
 ## Miscellaneous setup instructions
 
