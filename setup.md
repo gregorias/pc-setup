@@ -79,16 +79,7 @@ Change mouse scroll direction on the mouse. Scrolling up should go up.
 
 1. Set the app to run at login. Open the app and enable the option.
 
-### 5. Install my nerd font
-
-[Source](https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts)
-
-```fish
-brew tap homebrew/cask-fonts
-brew install --cask font-dejavu-sans-mono-nerd-font
-```
-
-### 6. Install some binaries with brew
+### 5. Install some binaries with brew
 
 ```fish
 brew install \
@@ -111,7 +102,7 @@ brew install \
   fswatch
 ```
 
-#### 7. Install [Universal Ctags](https://github.com/universal-ctags/ctags#the-latest-build-and-package)
+#### 6. Install [Universal Ctags](https://github.com/universal-ctags/ctags#the-latest-build-and-package)
 
 This package is useful for my Neovim Tagbar plugin.
 
@@ -119,13 +110,13 @@ This package is useful for my Neovim Tagbar plugin.
 brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 ```
 
-### 8. (macOS) Install a [GitHub SSH key](#github-ssh-key)
+### 7. (macOS) Install a [GitHub SSH key](#github-ssh-key)
 
-### 9. (macOS) Install [Chezmoi](#chezmoi)
+### 8. (macOS) Install [Chezmoi](#chezmoi)
 
-### 10. (macOS) Install & configure [Fish](#fish)
+### 9. (macOS) Install & configure [Fish](#fish)
 
-### 11. Install Python Dev Tools
+### 10. Install Python Dev Tools
 
 ```shell
 pip3 install \
@@ -134,7 +125,7 @@ pip3 install \
   virtualenv
 ```
 
-### 12. Configure [Neovim](#neovim)
+### 11. Configure [Neovim](#neovim)
 
 1. Install the Neovim Python package.
 
@@ -150,22 +141,22 @@ pip3 install \
 
 1. Run Neovim once for Packer to bootstrap itself.
 
-### 13. Install & configure [Fish](#fish)
+### 12. Install & configure [Fish](#fish)
 
-### 14. Install & configure Amethyst
+### 13. Install & configure Amethyst
 
 1. Install [Amethyst][amethyst] for convenient window management.
 
-### 15. Install & configure Better Touch Tool
+### 14. Install & configure Better Touch Tool
 
 1. Install [Better Touch Tool][btt] for window management.
 
-### 16. Install & configure [Key Combiner][keycombiner]
+### 15. Install & configure [Key Combiner][keycombiner]
 
 1. [Install Key Combiner for desktop](https://keycombiner.com/desktop/).
 2. Set up ^+⌘+c as the shortcut.
 
-### 17. Install XCode
+### 16. Install XCode
 
 Follow instructions from
 [freecodecamp.org](https://www.freecodecamp.org/news/how-to-download-and-install-xcode/).
