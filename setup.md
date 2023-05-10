@@ -163,9 +163,9 @@ Follow instructions from
 Install from [App
 Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 
-### 18. [Install and setup Google Drive for Desktop](https://www.google.com/drive/download/)
+### 17. [Install and setup Google Drive for Desktop](https://www.google.com/drive/download/)
 
-### 19. Set up [Homebrew  auto-updates](https://github.com/Homebrew/homebrew-autoupdate)
+### 18. Set up [Homebrew  auto-updates](https://github.com/Homebrew/homebrew-autoupdate)
 
 1. Install the auto-updating software:
 
@@ -182,7 +182,7 @@ Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 3. Enable terminal-notifier and brew-autoupdate notifications in system
    settings.
 
-### 20. Install [Switch Theme](https://github.com/gregorias/switch-theme.command)
+### 19. Install [Switch Theme](https://github.com/gregorias/switch-theme.command)
 
 ## Miscellaneous setup instructions
 
