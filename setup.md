@@ -147,10 +147,6 @@ pip3 install \
 
 1. Install [Amethyst][amethyst] for convenient window management.
 
-### 14. Install & configure Better Touch Tool
-
-1. Install [Better Touch Tool][btt] for window management.
-
 ### 15. Install & configure [Key Combiner][keycombiner]
 
 1. [Install Key Combiner for desktop](https://keycombiner.com/desktop/).
@@ -298,5 +294,4 @@ the sink if needed.
 * For `flock`, see [github/flock](https://github.com/discoteq/flock).
 
 [amethyst]: https://ianyh.com/amethyst/
-[btt]: https://folivora.ai/
 [keycombiner]: https://keycombiner.com/
