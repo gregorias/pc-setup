@@ -27,17 +27,10 @@ sudo pamac install fasd fzf git htop neovim ranger
 
 This is an aspirational section on setting up my macOS workspace from scratch.
 
-### 1. Install & Configure Firefox
-
-1. Install [Firefox](https://www.mozilla.org/de/firefox/download/thanks/).
-2. Login to Firefox.
-3. Login to Firefox extensions.
-
-### 2. Adjust system settings
+### 1. Adjust system settings
 
 1. Switch ⌃, fn, ⌥, ⌘ keys on the built-in keyboard.
-   1.
-   [Guide](https://howchoo.com/mac/mac-remap-fn-to-ctrl#open-keyboard-settings-in-system-preferences).
+   1. [Guide](https://howchoo.com/mac/mac-remap-fn-to-ctrl#open-keyboard-settings-in-system-preferences).
    On MacBook Pro M1 I have the following setup: ⌃, ⌘, fn, ⌥. I like Ctrl to be
    the leftmost button and the Alt-equivalent key to be the rightmost button.
    fn is at the most awkward spot, as is tradition. Set Capslock to function as
@@ -59,6 +52,12 @@ This is an aspirational section on setting up my macOS workspace from scratch.
 1. Delete Quick Notes from turning on when I hover in the bottom right corner
    of a screen (I don't use the app):
    `System Settings > Desktop & Dock > Hot Corners...`.
+
+### 1. Install & Configure Firefox
+
+1. Install [Firefox](https://www.mozilla.org/de/firefox/download/thanks/).
+2. Login to Firefox.
+3. Login to Firefox extensions.
 
 ### 3. Install Homebrew
 
