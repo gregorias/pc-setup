@@ -45,15 +45,15 @@ This is an aspirational section on setting up my macOS workspace from scratch.
    killall Dock
    ```
 
-1. [Hide the menu bar by default.](https://appleworld.today/archives/69599)
-   [You may use ^+F2 to reveal it.](https://superuser.com/a/1703883/1024852)
-1. [Remove the Spotlight icon from the menu bar.](https://discussions.apple.com/thread/250065431)
+1. [Remove the Spotlight icon from the menu
+   bar.](https://discussions.apple.com/thread/250065431) You may do it in
+   `Settings > Control Center`.
    Its shortcut is well-known to me (⌘ + SPACE). I don't need this crutch.
 1. Delete Quick Notes from turning on when I hover in the bottom right corner
    of a screen (I don't use the app):
    `System Settings > Desktop & Dock > Hot Corners...`.
 
-### 1. Install & Configure Firefox
+### 2. Install & Configure Firefox
 
 1. Install [Firefox](https://www.mozilla.org/de/firefox/download/thanks/).
 2. Login to Firefox.
