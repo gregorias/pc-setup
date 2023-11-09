@@ -53,20 +53,28 @@ This is an aspirational section on setting up my macOS workspace from scratch.
    of a screen (I don't use the app):
    `System Settings > Desktop & Dock > Hot Corners...`.
 
-### 2. Install & Configure Firefox
+### 2. Install & Configure 1Password
+
+1. [Download](https://1password.com/downloads/mac/), install, and login to 1Password.
+
+### 3. Install & Configure Firefox
 
 1. Install [Firefox](https://www.mozilla.org/de/firefox/download/thanks/).
 2. Login to Firefox.
 3. Login to Firefox extensions.
 
-### 3. Install Homebrew
+### 4. Install Homebrew
 
 Follow [brew.sh](https://brew.sh/) for instructions.
 
 Homebrew is essential for installing most packages. macOS doesn't support an
 apt equivalent.
 
-### 4. Configure mouse scroll direction
+### 5. (macOS) Install a [GitHub SSH key](#github-ssh-key)
+
+### 6. (macOS) Install [Chezmoi](#chezmoi)
+
+### 7. Configure mouse scroll direction
 
 Change mouse scroll direction on the mouse. Scrolling up should go up.
 
@@ -78,7 +86,7 @@ Change mouse scroll direction on the mouse. Scrolling up should go up.
 
 1. Set the app to run at login. Open the app and enable the option.
 
-### 5. Install some binaries with brew
+### 7. Install some binaries with brew
 
 ```fish
 brew install \
@@ -100,10 +108,6 @@ brew install \
   watch \
   fswatch
 ```
-
-### 6. (macOS) Install a [GitHub SSH key](#github-ssh-key)
-
-### 7. (macOS) Install [Chezmoi](#chezmoi)
 
 ### 8. (macOS) Install & configure [Fish](#fish)
 
