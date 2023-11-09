@@ -74,6 +74,9 @@ apt equivalent.
 
 ### 6. (macOS) Install [Chezmoi](#chezmoi)
 
+1. Install Fish and 1Password (`brew install fish op`) as they are needed by
+   scripts.
+
 ### 7. Configure mouse scroll direction
 
 Change mouse scroll direction on the mouse. Scrolling up should go up.
