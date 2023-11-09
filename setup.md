@@ -17,8 +17,6 @@ sudo pamac install fasd fzf git htop neovim ranger
 
 ### Install [Chezmoi](#chezmoi)
 
-### Install & configure [Fish](#fish)
-
 ### Install & configure [Kitty](#kitty)
 
 ### Configure Neovim
@@ -49,157 +47,53 @@ This is an aspirational section on setting up my macOS workspace from scratch.
    bar.](https://discussions.apple.com/thread/250065431) You may do it in
    `Settings > Control Center`.
    Its shortcut is well-known to me (⌘ + SPACE). I don't need this crutch.
+1. In `System Preferences > Control Center`, set "Sound" to "Always". I like to
+   have the icon available, so that I can easily change sinks.
 1. Delete Quick Notes from turning on when I hover in the bottom right corner
    of a screen (I don't use the app):
    `System Settings > Desktop & Dock > Hot Corners...`.
+1. Set "Automatically hide and show the Dock" in `System Settings > Desktop & Dock`.
+1. Give Full Disk Access to terminals. This will be necessary for them to enact
+   changes.
 
-### 2. Install & Configure 1Password
-
-1. [Download](https://1password.com/downloads/mac/), install, and login to 1Password.
-
-### 3. Install & Configure Firefox
-
-1. Install [Firefox](https://www.mozilla.org/de/firefox/download/thanks/).
-2. Login to Firefox.
-3. Login to Firefox extensions.
-
-### 4. Install Homebrew
+### 2. Install Homebrew
 
 Follow [brew.sh](https://brew.sh/) for instructions.
 
 Homebrew is essential for installing most packages. macOS doesn't support an
 apt equivalent.
 
+### 3. Install & Configure 1Password
+
+1. [Download](https://1password.com/downloads/mac/), install, and login to 1Password.
+2. Install (`brew install --cask 1password-cli`) and
+   [configure it](https://developer.1password.com/docs/cli/get-started/#step-2-turn-on-the-1password-desktop-app-integration).
+
+### 4. Install & Configure Firefox
+
+1. Install [Firefox](https://www.mozilla.org/de/firefox/download/thanks/).
+2. Login to Firefox.
+3. Login to Firefox extensions.
+
 ### 5. (macOS) Install a [GitHub SSH key](#github-ssh-key)
 
 ### 6. (macOS) Install [Chezmoi](#chezmoi)
 
-1. Install Fish and 1Password (`brew install fish op`) as they are needed by
+1. Install Fish (`brew install fish`) as they are needed by
    scripts.
 
-### 7. Configure mouse scroll direction
-
-Change mouse scroll direction on the mouse. Scrolling up should go up.
-
-1. Install [Unnatural](https://github.com/ther0n/UnnaturalScrollWheels).
-
-   ```shell
-   brew install --cask unnaturalscrollwheels
-   ```
-
-1. Set the app to run at login. Open the app and enable the option.
-
-### 7. Install some binaries with brew
-
-```fish
-brew install \
-  direnv \
-  exa \
-  fasd \
-  fzf \
-  git-delta \
-  go \
-  htop \
-  node \
-  pyenv \
-  ranger \
-  terminal-notifier \
-  \
-  catimg \
-  timg \
-  \
-  watch \
-  fswatch
-```
-
-### 8. (macOS) Install & configure [Fish](#fish)
-
-### 9. Install Python Dev Tools
-
-```shell
-pip3 install \
-  pipenv
-  pipx
-  virtualenv
-```
-
-### 10. Configure [Neovim](#neovim)
-
-1. Install the Neovim Python package.
-
-   ```shell
-   pip3 install neovim
-   ```
-
-1. Use Chezmoi to fetch Neovim configuration.
-
-   ```shell
-   chezmoi apply .config/nvim
-   ```
-
-1. Run Neovim once for Packer to bootstrap itself.
-
-### 11. Install & configure [Fish](#fish)
-
-### 12. Install & configure Amethyst
-
-1. Install [Amethyst][amethyst] for convenient window management.
-
-### 13. Install & configure [Key Combiner][keycombiner]
-
-1. [Install Key Combiner for desktop](https://keycombiner.com/desktop/).
-2. Set up ^+⌘+c as the shortcut.
-
-### 14. Install XCode
+### 7. Install XCode
 
 Follow instructions from
 [freecodecamp.org](https://www.freecodecamp.org/news/how-to-download-and-install-xcode/).
 Install from [App
 Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 
-### 15. [Install and setup Google Drive for Desktop](https://www.google.com/drive/download/)
-
-### 16. Set up [Homebrew  auto-updates](https://github.com/Homebrew/homebrew-autoupdate)
-
-1. Install the auto-updating software:
-
-    ```shell
-    brew tap homebrew/autoupdate
-    ```
-
-2. Start the job:
-
-    ```shell
-    brew autoupdate start 604800 --upgrade
-    ```
-
-3. Enable terminal-notifier and brew-autoupdate notifications in system
-   settings.
-
-### 17. Install [Switch Theme](https://github.com/gregorias/switch-theme.command)
+### 8. [Install and setup Google Drive for Desktop](https://www.google.com/drive/download/)
 
 ## Miscellaneous setup instructions
 
 This section lists out installation sub-steps that are shared by all systems.
-
-### Fish
-
-1. Install [fish](https://fishshell.com/)
-1. Install [fisher](https://github.com/jorgebucaran/fisher#installation)
-1. Install [fishmarks](https://github.com/techwizrd/fishmarks)
-1. Use Chezmoi to fetch fish configuration.
-
-   ```fish
-   chezmoi apply .config/fish
-   ```
-
-1. Run
-
-   ```fish
-   fisher update
-   ```
-
-1. (macOS) To fix `grep -P` not being available, apply [this PR](https://github.com/fishgretel/fasd/pull/23).
 
 ### GitHub SSH key
 
@@ -236,12 +130,6 @@ This step requires [a GitHub SSH Key](#github-ssh-key).
     cd $HOME/.config/kitty
     git clone https://github.com/yurikhan/kitty_grab.git
     ```
-
-1. Use Chezmoi to fetch Kitty configuration.
-
-   ```shell
-   chezmoi apply .config/kitty
-   ```
 
 ### Ranger
 
@@ -281,9 +169,6 @@ access to use it.
 
 I like to have the sound menu in the menu bar. It enables me to quickly change
 the sink if needed.
-
-1. Open System Preferences > Sound
-2. Select "Show Sound in menu bar (always)."
 
 ### Utilities
 
