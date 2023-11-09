@@ -36,6 +36,10 @@ This is an aspirational section on setting up my macOS workspace from scratch.
 1. Adjust other keyboard settings.
    1. Change 🌐 to show emojis and symbols. It's a useful keyboard extension.
    2. Select "use F keys as standard keys".
+1. Adjust keyboard shortcuts in `Settings > Keyboard`.
+   1. In `Mission Control > Mission Control`, use `⌃⌘H` and `⌃⌘L` for moving
+      spaces.
+   1. In `Input Sources > Select the previous input source`, use `⌃⌘I`.
 1. [Show macOS app switcher across all monitors.](https://gist.github.com/jthodge/c4ba15a78fb29671dfa072fe279355f0)
 
    ```shell
@@ -165,16 +169,8 @@ access to use it.
 
 [Source](https://osxdaily.com/2020/04/27/fix-cron-permissions-macos-full-disk-access/).
 
-### macOS Sound
-
-I like to have the sound menu in the menu bar. It enables me to quickly change
-the sink if needed.
-
 ### Utilities
 
 * For `pdftotext`, `brew install poppler`
   ([Source](https://superuser.com/questions/56272/is-the-pdftotext-command-line-tool-for-mac/613342#613342)).
 * For `flock`, see [github/flock](https://github.com/discoteq/flock).
-
-[amethyst]: https://ianyh.com/amethyst/
-[keycombiner]: https://keycombiner.com/
