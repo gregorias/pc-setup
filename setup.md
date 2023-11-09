@@ -101,21 +101,13 @@ brew install \
   fswatch
 ```
 
-#### 6. Install [Universal Ctags](https://github.com/universal-ctags/ctags#the-latest-build-and-package)
+### 6. (macOS) Install a [GitHub SSH key](#github-ssh-key)
 
-This package is useful for my Neovim Tagbar plugin.
+### 7. (macOS) Install [Chezmoi](#chezmoi)
 
-```shell
-brew install --HEAD universal-ctags/universal-ctags/universal-ctags
-```
+### 8. (macOS) Install & configure [Fish](#fish)
 
-### 7. (macOS) Install a [GitHub SSH key](#github-ssh-key)
-
-### 8. (macOS) Install [Chezmoi](#chezmoi)
-
-### 9. (macOS) Install & configure [Fish](#fish)
-
-### 10. Install Python Dev Tools
+### 9. Install Python Dev Tools
 
 ```shell
 pip3 install \
@@ -124,7 +116,7 @@ pip3 install \
   virtualenv
 ```
 
-### 11. Configure [Neovim](#neovim)
+### 10. Configure [Neovim](#neovim)
 
 1. Install the Neovim Python package.
 
@@ -140,27 +132,27 @@ pip3 install \
 
 1. Run Neovim once for Packer to bootstrap itself.
 
-### 12. Install & configure [Fish](#fish)
+### 11. Install & configure [Fish](#fish)
 
-### 13. Install & configure Amethyst
+### 12. Install & configure Amethyst
 
 1. Install [Amethyst][amethyst] for convenient window management.
 
-### 15. Install & configure [Key Combiner][keycombiner]
+### 13. Install & configure [Key Combiner][keycombiner]
 
 1. [Install Key Combiner for desktop](https://keycombiner.com/desktop/).
 2. Set up ^+⌘+c as the shortcut.
 
-### 16. Install XCode
+### 14. Install XCode
 
 Follow instructions from
 [freecodecamp.org](https://www.freecodecamp.org/news/how-to-download-and-install-xcode/).
 Install from [App
 Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 
-### 17. [Install and setup Google Drive for Desktop](https://www.google.com/drive/download/)
+### 15. [Install and setup Google Drive for Desktop](https://www.google.com/drive/download/)
 
-### 18. Set up [Homebrew  auto-updates](https://github.com/Homebrew/homebrew-autoupdate)
+### 16. Set up [Homebrew  auto-updates](https://github.com/Homebrew/homebrew-autoupdate)
 
 1. Install the auto-updating software:
 
@@ -177,7 +169,7 @@ Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 3. Enable terminal-notifier and brew-autoupdate notifications in system
    settings.
 
-### 19. Install [Switch Theme](https://github.com/gregorias/switch-theme.command)
+### 17. Install [Switch Theme](https://github.com/gregorias/switch-theme.command)
 
 ## Miscellaneous setup instructions
 
