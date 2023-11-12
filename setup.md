@@ -97,6 +97,10 @@ Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 
 ### 9. [Install Bartender 5](https://www.macbartender.com/)
 
+### 10. Install [iTerm2](https://iterm2.com)
+
+1. [Configure](obsidian://open?vault=STEM&file=Zettelkasten%2FiTerm2)
+
 ## Miscellaneous setup instructions
 
 This section lists out installation sub-steps that are shared by all systems.
