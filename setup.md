@@ -51,8 +51,9 @@ This is an aspirational section on setting up my macOS workspace from scratch.
    bar.](https://discussions.apple.com/thread/250065431) You may do it in
    `Settings > Control Center`.
    Its shortcut is well-known to me (⌘ + SPACE). I don't need this crutch.
-1. In `System Preferences > Control Center`, set "Sound" to "Always". I like to
-   have the icon available, so that I can easily change sinks.
+1. In `System Preferences > Control Center`,
+   1. Set "Sound" to "Always". I like to have the icon available, so that I can easily change sinks.
+   2. Set "Now Playing" to "Show when active".
 1. Delete Quick Notes from turning on when I hover in the bottom right corner
    of a screen (I don't use the app):
    `System Settings > Desktop & Dock > Hot Corners...`.
