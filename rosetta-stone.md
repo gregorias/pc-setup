@@ -16,7 +16,6 @@ Action                   | Linux         | macOS
 ------------------------ | -----------   | ---------
 Finder                   | N/A           | ^+⌘+space
 Maximize a window        | super+u       | ^+⌘+d
-View all desktops        | super         | ^+↑
 Move to a desktop        | ^+super+h/l   | ^+⌘+h/l
 Move window to a desktop | ^+⇧+super+h/l | ^+⇧+⌘+h/l
 Move window to a monitor | N/A           | ^+⇧+⌘+←/→
