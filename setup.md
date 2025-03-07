@@ -27,13 +27,7 @@ This is an aspirational section on setting up my macOS workspace from scratch.
 
 ### 1. Adjust system settings
 
-1. Switch ⌃, fn, ⌥, ⌘ keys on the built-in keyboard.
-   1. [Guide](https://howchoo.com/mac/mac-remap-fn-to-ctrl#open-keyboard-settings-in-system-preferences).
-   On MacBook Pro M1 I have the following setup: ⌃, ⌘, fn, ⌥. I like Ctrl to be
-   the leftmost button and the Alt-equivalent key to be the rightmost button.
-   fn is at the most awkward spot, as is tradition. Set Capslock to function as
-   an escape key.
-1. Adjust other keyboard settings.
+1. Adjust keyboard settings.
    1. Change 🌐 to show emojis and symbols. It's a useful keyboard extension.
    2. Select "use F keys as standard keys".
 1. Adjust keyboard shortcuts in `Settings > Keyboard`.
