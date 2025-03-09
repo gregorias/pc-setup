@@ -25,61 +25,11 @@ sudo pamac install fasd fzf git htop neovim ranger
 
 This is an aspirational section on setting up my macOS workspace from scratch.
 
-### 1. Adjust system settings
-
-1. Adjust keyboard settings.
-   1. Change 🌐 to show emojis and symbols. It's a useful keyboard extension.
-   2. Select "use F keys as standard keys".
-1. Adjust keyboard shortcuts in `Settings > Keyboard`.
-   1. In `Mission Control > Mission Control`, use `⌃⌘H` and `⌃⌘L` for moving
-      spaces.
-   1. In `Input Sources > Select the previous input source`, use `⌃⌘I`.
-1. [Show macOS app switcher across all monitors.](https://gist.github.com/jthodge/c4ba15a78fb29671dfa072fe279355f0)
-
-   ```shell
-   defaults write com.apple.Dock appswitcher-all-displays -bool true
-   killall Dock
-   ```
-
-1. [Remove the Spotlight icon from the menu
-   bar.](https://discussions.apple.com/thread/250065431) You may do it in
-   `Settings > Control Center`.
-   Its shortcut is well-known to me (⌘ + SPACE). I don't need this crutch.
-1. In `System Preferences > Control Center`,
-   1. Set "Sound" to "Always". I like to have the icon available, so that I can easily change sinks.
-   2. Set "Now Playing" to "Show when active".
-1. Delete Quick Notes from turning on when I hover in the bottom right corner
-   of a screen (I don't use the app):
-   `System Settings > Desktop & Dock > Hot Corners...`.
-1. Set "Automatically hide and show the Dock" in `System Settings > Desktop & Dock`.
-1. Give Full Disk Access to terminals. This will be necessary for them to enact
-   changes.
-
-### 2. Install Homebrew
-
-Follow [brew.sh](https://brew.sh/) for instructions.
-
-Homebrew is essential for installing most packages. macOS doesn't support an
-apt equivalent.
-
 ### 3. Install & Configure 1Password
 
 1. [Download](https://1password.com/downloads/mac/), install, and login to 1Password.
 2. Install (`brew install --cask 1password-cli`) and
    [configure it](https://developer.1password.com/docs/cli/get-started/#step-2-turn-on-the-1password-desktop-app-integration).
-
-### 4. Install & Configure Firefox
-
-1. Install [Firefox](https://www.mozilla.org/de/firefox/download/thanks/).
-2. Login to Firefox.
-3. Login to Firefox extensions.
-
-### 5. (macOS) Install a [GitHub SSH key](#github-ssh-key)
-
-### 6. (macOS) Install [Chezmoi](#chezmoi)
-
-1. Install Fish (`brew install fish`) as they are needed by
-   scripts.
 
 ### 7. Install XCode
 
@@ -111,20 +61,6 @@ If the key has been restored and is present in `.ssh`, you don't need this step.
    ```
 
 1. [Add the key to your GitHub profile](https://github.com/settings/keys).
-
-### Chezmoi
-
-This step requires [a GitHub SSH Key](#github-ssh-key).
-
-1. Follow [install instructions](https://www.chezmoi.io/install/).
-1. Initialize the repo with
-
-    ```shell
-    chezmoi init git@github.com:gregorias/dotfiles.git
-    ```
-
-1. Fork my chezmoi config, `.config/chezmoi/chezmoi.toml` from the initialized
-   repo.
 
 ### Kitty
 
