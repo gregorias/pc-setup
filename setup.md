@@ -25,12 +25,6 @@ sudo pamac install fasd fzf git htop neovim ranger
 
 This is an aspirational section on setting up my macOS workspace from scratch.
 
-### 3. Install & Configure 1Password
-
-1. [Download](https://1password.com/downloads/mac/), install, and login to 1Password.
-2. Install (`brew install --cask 1password-cli`) and
-   [configure it](https://developer.1password.com/docs/cli/get-started/#step-2-turn-on-the-1password-desktop-app-integration).
-
 ### 7. Install XCode
 
 Follow instructions from
@@ -39,12 +33,6 @@ Install from [App
 Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 
 ### 8. [Install and setup Google Drive for Desktop](https://www.google.com/drive/download/)
-
-### 9. [Install Bartender 5](https://www.macbartender.com/)
-
-### 10. Install [iTerm2](https://iterm2.com)
-
-1. [Configure](obsidian://open?vault=STEM&file=Zettelkasten%2FiTerm2)
 
 ## Miscellaneous setup instructions
 
